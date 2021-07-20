@@ -48,3 +48,16 @@ python app.py --image_dir=some_path --config_dir=some_path
  The results from the AutoImage Label Tool are stored here https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel/Images
  
  There are six different images having different dimensions which the AutoImage Label Tool was able to handle. More features will be added to this tool in the future.
+ 
+ ## Next
+1. Utils_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/utils
+
+## Back 
+1. Main_Page
+* https://github.com/nogifeet/CSGO_Aimbot/blob/main/README.md
+2. Config_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/config
+3. Inference_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/inference
+
