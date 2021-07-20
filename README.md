@@ -47,6 +47,6 @@ class_id xmin ymin box_width box_height
 ## Sample Labelled Images:
 
 ![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture1.PNG "Sample 1")
-![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture2.PNG "Sample 2")
-![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture3.PNG "Sample 3")
+![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture2.jpg "Sample 2")
+![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture3.jpg "Sample 3")
 
