@@ -1,6 +1,6 @@
 # AutoImage Label Tool:
 
-The idea behind this tool was that it takes a long time to label images! Instead of labelling each image, I decided to use my already trained Yolov4 and Yolov4-tiny model weights to label new images and save their bounding box coordinates. I created a wrapper around the tool and made it so that anyone can use it. This tool allowed me to annotate around 4000 images in a matter of few hours. A task that would easily take a day or two has been reduced significantly.
+The idea behind this tool was that it takes a long time to label images! Instead of labelling each image, I decided to use my already trained Yolov4 and Yolov4-tiny model weights to label new images and save their bounding box coordinates. I created a script around the tool and made it so that anyone can use it. This tool allowed me to annotate around 4000 images in a matter of few hours. A task that would easily take a day or two has been reduced significantly.
 
 * Note: Double check all annotations from the tool before begining training.
 
