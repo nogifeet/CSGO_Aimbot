@@ -11,4 +11,13 @@ https://github.com/AlexeyAB/darknet#how-to-improve-object-detection
 ## Yolov4-tiny Training Graph:
 ![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/chart_yolov4-tiny-custom.png "Yolov4-Tiny")
 
+## Next
+1. Inference_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/inference
+2. AutoImage Label Tool Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel
+3. Utils_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/utils
 
+## Back 
+https://github.com/nogifeet/CSGO_Aimbot/blob/main/README.md
