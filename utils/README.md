@@ -27,7 +27,7 @@ python voc2yolo.py --lbl_dir=some_path --cls_dir=path_to_classes.txt_file --outp
 
 ## Back 
 1. Main_Page
-* https://github.com/nogifeet/CSGO_Aimbot/blob/main/README.md
+* https://github.com/nogifeet/CSGO_Aimbot
 2. Config_Readme
 * https://github.com/nogifeet/CSGO_Aimbot/tree/main/config
 3. Inference_Readme
