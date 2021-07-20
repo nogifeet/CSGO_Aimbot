@@ -50,3 +50,12 @@ class_id xmin ymin box_width box_height
 ![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture2.jpg "Sample 2")
 ![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture3.jpg "Sample 3")
 
+## Next
+1. Config_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/config
+2. Inference_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/inference
+3. AutoImage Label Tool Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel
+4. Utils_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/utils
