@@ -21,4 +21,4 @@ https://github.com/AlexeyAB/darknet#how-to-improve-object-detection
 
 ## Back 
 1. Main Page
-* https://github.com/nogifeet/CSGO_Aimbot/blob/main/README.md
+* https://github.com/nogifeet/CSGO_Aimbot
