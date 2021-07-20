@@ -5,6 +5,21 @@
 #returns all the required arguments
 python main.py --help 
 
+usage: main.py [-h] -c CONFIG_PATH -d DIMS -t TEAM -p P_MIN -tt THRES
+
+Run Yolo Inference on OpenCV GPU
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONFIG_PATH, --config_path CONFIG_PATH
+                        Directory Containing .cfg, classes.txt and yolo weights
+  -d DIMS, --dims DIMS  Height_width seperated by "_"
+  -t TEAM, --team TEAM  CT or T
+  -p P_MIN, --p_min P_MIN
+                        Probability Minimum Value between 0 to 1.0
+  -tt THRES, --thres THRES
+                        Threshold Value between 0 to 1.0
+
 python main.py --config_path=some_path --dims=1080_1920 --team=CT --p_min=0.2 --thresh=0.3
 ```
 
