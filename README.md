@@ -22,3 +22,12 @@ There are many different methods to run inference on GPU in both windows and ubu
 * OpenCV-GPU Build Guide: https://www.youtube.com/watch?v=YsmhKar8oOc&t=535s
 * Darknet Build Guide: https://github.com/AlexeyAB/darknet
 * Darknet Google collab Guide: https://github.com/nogifeet/Vehicle-License-Plate-
+
+## Data Gathering:
+
+Training an object detection model requires a large amount of data and precise and consistent labels in each image. For gathering images I downloaded CSGO Gameplay videos from youtube. Using the FFmpeg library to convert videos to images resulting in 1 image for every second 2000:500[train: Val] images.
+
+```python
+#one image for every second
+ffmpeg -i input.mp4 -r 1 /images/%04d.jpg
+```
