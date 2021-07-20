@@ -1,8 +1,6 @@
 # File Structure:
 
 1. main.py 
-* main file to run use following commands
-
 ```python
 #returns all the required arguments
 python main.py --help 
