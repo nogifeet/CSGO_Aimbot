@@ -59,3 +59,6 @@ class_id xmin ymin box_width box_height
 * https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel
 4. Utils_Readme
 * https://github.com/nogifeet/CSGO_Aimbot/tree/main/utils
+
+## Results:
+https://www.youtube.com/watch?v=lf7Cke5pj5Q
