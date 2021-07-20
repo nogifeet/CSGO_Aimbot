@@ -32,6 +32,17 @@ config_folder/
 #return all the required arguments by the program
 python app.py --help   
 
+usage: app.py [-h] -c CONFIG_DIR -i IMAGE_DIR
+
+Yolo Object Detection Annotation Helper Tool
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONFIG_DIR, --config_dir CONFIG_DIR
+                        Classes.txt file path location
+  -i IMAGE_DIR, --image_dir IMAGE_DIR
+                        Images Directory
+                        
 python app.py --image_dir=some_path --config_dir=some_path
  ```
  
