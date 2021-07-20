@@ -1,21 +1,43 @@
 # Conversion Scripts:
 
 1. yolo2voc.py
-* Takes Yolo annotations and converts to Pascal Voc format and creates classes.txt in output directory. 
 
 ```python
 #returns all the required arguments 
 python yolo2voc.py --help 
 
+usage: yolo2voc.py [-h] --lbl_dir LBL_DIR --cls_dir CLS_DIR --output_dir OUTPUT_DIR
+
+Takes Yolo annotations and converts to Pascal Voc format and creates classes.txt in output directory.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --lbl_dir LBL_DIR     Yolo Label Directory
+  --cls_dir CLS_DIR     classes.txt file Directory
+  --output_dir OUTPUT_DIR
+                        Pascal-Voc output Directory
+
 python yolo2voc.py --lbl_dir=some_path --cls_dir=path_to_classes.txt_file --output_dir=Some_output_path
 ```
 
 2. voc2yolo.py
-* Takes Pascal Voc annotations and converts them to Yolo format.
 ```python
 #returns all the required arguments 
 python voc2yolo.py --help 
 
+usage: voc2yolo.py [-h] -l LBL_DIR -c CLS_DIR -o OUTPUT_DIR
+
+Takes Pascal VOC annotations and converts to yolo format and creates classes.txt in output directory.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LBL_DIR, --lbl_dir LBL_DIR
+                        Pascal-Voc Label Directory
+  -c CLS_DIR, --cls_dir CLS_DIR
+                        classes.txt file Directory
+  -o OUTPUT_DIR, --output_dir OUTPUT_DIR
+                        Yolo output Directory
+                        
 python voc2yolo.py --lbl_dir=some_path --cls_dir=path_to_classes.txt_file --output_dir=Some_output_path
 ```
 
