@@ -18,3 +18,18 @@ python main.py --config_path=some_path --dims=1080_1920 --team=CT --p_min=0.2 --
 
 4. save.py 
 * saves all the detected images into new folder images/new_images.jpg
+
+## Performmance Measure:
+
+1. Yolov4 Model
+* Yolov4 model was highly accurate with a low False Positive Rate.
+* High Inference time resulting in low fps rate(9-11)
+* Due to low FPS some click(x,y) decision made by the script were slightly inaccurate.
+
+2. Yolov4 Tiny Model
+* Yolov4 Tiny model had a high False Positive rate even at low threshold values. 
+* Low Inference Time resulting in high fps rate(25-33)
+* Due to the high false positive rate it was common for the model to predict an outside object as roi object.
+
+## Results:
+https://www.youtube.com/watch?v=lf7Cke5pj5Q
