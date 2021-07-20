@@ -35,3 +35,16 @@ python main.py --config_path=some_path --dims=1080_1920 --team=CT --p_min=0.2 --
 
 ## Results:
 https://www.youtube.com/watch?v=lf7Cke5pj5Q
+
+## Next
+2. AutoImage Label Tool Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel
+3. Utils_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/utils
+
+## Back 
+1. Main_Page
+* https://github.com/nogifeet/CSGO_Aimbot/blob/main/README.md
+2. Config_Readme
+* https://github.com/nogifeet/CSGO_Aimbot/tree/main/config
+
