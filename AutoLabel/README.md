@@ -9,7 +9,6 @@ There are two main arguments app.py expects (i) Image Directory with all the ima
 
 * Pls Note in cfg directory keep all names as mentioned here or you will run into error.
 
-
 ```python
 
 images_folder/
@@ -19,7 +18,19 @@ images_folder/
       ....
       
 config_folder/
-      yolov4.cfg
+      yolo.cfg
       classes.txt
       yolo_final.weights     
  ```
+ * If your image files are not of 'jpg' format please change line 46 in app.py 
+
+```python
+#return all the required arguments by the program
+python app.py --help   
+
+python app.py --image_dir=some_path --config_dir=some_path
+ ```
+ 
+ The results from the AutoImage Label Tool are stored here https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel/Images
+ 
+ There are six different images having different dimensions which the AutoImage Label Tool was able to handle. More features will be added to this tool in the future.
