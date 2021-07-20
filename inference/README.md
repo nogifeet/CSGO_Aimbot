@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=lf7Cke5pj5Q
 
 ## Back 
 1. Main_Page
-* https://github.com/nogifeet/CSGO_Aimbot/blob/main/README.md
+* https://github.com/nogifeet/CSGO_Aimbot
 2. Config_Readme
 * https://github.com/nogifeet/CSGO_Aimbot/tree/main/config
 
