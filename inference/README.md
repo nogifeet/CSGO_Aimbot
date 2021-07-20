@@ -30,7 +30,7 @@ python main.py --config_path=some_path --dims=1080_1920 --team=CT --p_min=0.2 --
 
 2. Yolov4 Tiny Model
 * Yolov4 Tiny model had a high False Positive rate even at low threshold values. 
-* Low Inference Time resulting in high fps rate(25-33)
+* Low Inference Time resulting in high fps rate(25-30)
 * Due to the high false positive rate it was common for the model to predict an outside object as roi object.
 
 ## Results:
