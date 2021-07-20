@@ -1,4 +1,4 @@
-# Conversion SCripts:
+# Conversion Scripts:
 
 1. yolo2voc.py
 * Takes Yolo annotations and converts to Pascal Voc format and creates classes.txt in output directory. 
