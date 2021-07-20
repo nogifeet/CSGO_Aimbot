@@ -31,6 +31,20 @@ python app.py --help
 python app.py --image_dir=some_path --config_dir=some_path
  ```
  
+ ## keyboard Commands:
+ ```python
+#keyboard Commands
+1. Keypress-A Increases Threshold Value
+2. Keypress-Z Decreases Threshold Value
+3. Keypress-D Increases Probability Minimum Value
+4. Keypress-R Decreases Probability Minimum Value
+5. Keypress-S Saves Annotation File and move onto next image
+6. Keypress-Q Go to previous image
+7. Keypress-E Go to next image 
+8. Keypress-X Quit/Exit
+
+ ```
+ 
  The results from the AutoImage Label Tool are stored here https://github.com/nogifeet/CSGO_Aimbot/tree/main/AutoLabel/Images
  
  There are six different images having different dimensions which the AutoImage Label Tool was able to handle. More features will be added to this tool in the future.
