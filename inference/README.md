@@ -21,6 +21,8 @@ python main.py --config_path=some_path --dims=1080_1920 --team=CT --p_min=0.2 --
 
 ## Performmance Measure:
 
+![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/Capture.PNG "FPS Table")
+
 1. Yolov4 Model
 * Yolov4 model was highly accurate with a low False Positive Rate.
 * High Inference time resulting in low fps rate(9-11)
