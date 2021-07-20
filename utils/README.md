@@ -1,7 +1,7 @@
 # Conversion SCripts:
 
 1. yolo2voc.py
-Takes Yolo annotations and converts to Pascal Voc format and creates classes.txt in output directory. 
+* Takes Yolo annotations and converts to Pascal Voc format and creates classes.txt in output directory. 
 
 ```python
 #returns all the required arguments 
@@ -11,7 +11,7 @@ python yolo2voc.py --lbl_dir=some_path --cls_dir=path_to_classes.txt_file --outp
 ```
 
 2. voc2yolo.py
-Takes Pascal Voc annotations and converts them to Yolo format.
+* Takes Pascal Voc annotations and converts them to Yolo format.
 ```python
 #returns all the required arguments 
 python voc2yolo.py --help 
