@@ -1,5 +1,8 @@
 # CSGO_Aimbot
 
+![Alt text](https://github.com/nogifeet/CSGO_Aimbot/blob/main/Data/csgo.jpg "Introduction")
+
+
 In this repo, I will try to demonstrate how it is possible to create a bot that is able to play an FPS game and make 0-minimum latency inferences. In the world of Computer Vision/AI/Robotics real-life FPS count is said to range from 23–25 and anything below 20 creates a bottleneck for FPS count and cannot be categorized as real-life FPS.
 
 In the above table, you clearly see why running object detection models on the CPU is actually bad when it comes to any real-time applications. This is because any new-gen CPU might have 4–8 cores while GPU's can have 100's or 1000's cores. A GPU will break down a task into smaller steps and process them simultaneously. While a CPU is better off with serial processing.
@@ -30,4 +33,12 @@ Training an object detection model requires a large amount of data and precise a
 ```python
 #one image for every second
 ffmpeg -i input.mp4 -r 1 /images/%04d.jpg
+```
+## Image Labelling:
+
+The next step was to label train and validation images. I decided to use 4 labels [t,t_head,ct_head,ct] as there are two teams in the game Terrorist-[t] and Counter-terrorist-[ct]. LabelImg is an image labelling tool used to draw a bounding box encompassing an object of interest.
+
+```python
+#Yolo Darknet Annotation Format
+class_id xmin ymin box_width box_height
 ```
